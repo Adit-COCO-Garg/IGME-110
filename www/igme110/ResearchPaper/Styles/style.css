@@ -1,0 +1,45 @@
+/*Fonts imported via google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Imprima');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Imprima', sans-serif;
+	font-weight: 400;
+}
+/*Navbar*/
+.navbar {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	float: right;
+	overflow: auto;
+}
+
+.navbar a {
+	display: block;
+	color: "white";
+	padding: 2em;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
+
+.navbar a:hover:not(.active) {
+	background-color: #FC046D;
+	color: white;
+}
+/*
+.buttons p {
+	background-color: black;
+	color: white;
+}
+
+.buttons p:hover {
+	background-color: #FC046D;
+}
